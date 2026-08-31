@@ -275,7 +275,7 @@ Window
         worldId: WebEngineScript.MainWorld
       }
 
-      web.userScripts.collection = [ nativeshell ];
+      web.profile.userScripts.collection = [ nativeshell ];
     }
 
     onLoadingChanged: function(loadingInfo)
